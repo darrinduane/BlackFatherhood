@@ -1,0 +1,29 @@
+.header {
+    padding: auto;
+    text-align: center;
+    background: #191f1d;
+    color: white;
+    font-size: 25px;
+  }
+
+
+/* We're working with the body tag, and so with the WHOLE page */
+body
+{
+    background-color: burlywood; /* The page background will be black */
+    color: purple; /* The page text will be white */
+    border-block-color: red; 
+    color-adjust: green; 
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+img {
+    display: round;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  h2{}
+  footer{border-block-style: solid;}
