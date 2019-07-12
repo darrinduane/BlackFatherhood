@@ -1,3 +1,4 @@
+
 .header {
     padding: auto;
     text-align: center;
@@ -7,23 +8,29 @@
   }
 
 
-/* We're working with the body tag, and so with the WHOLE page */
-body
-{
-    background-color: burlywood; /* The page background will be black */
-    color: purple; /* The page text will be white */
+  body{
+    background-color: burlywood; /* The page background will be burlywood */
+    color: black; /* The page text will be purple */
     border-block-color: red; 
     color-adjust: green; 
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
-
 }
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: brown;
+  }
+ .img{
+ width: 100%;
+}
+
+
 img {
-    display: round;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  width: 50%;
+  height: 100px;
+  border: 1px solid black;
+  display: inline-block;
   }
   h2{}
   footer{border-block-style: solid;}
