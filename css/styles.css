@@ -1,26 +1,30 @@
+/*Mobile first query*/
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: brown;
+  }
 
+/*Header css*/
 .header {
     padding: auto;
     text-align: center;
     background: #191f1d;
-    color: white;
+    color: burlywood;
     font-size: 25px;
   }
 
-
+/*Body css*/
   body{
     background-color: burlywood; /* The page background will be burlywood */
-    color: black; /* The page text will be purple */
+    color: black; /* The page text will be black */
     border-block-color: red; 
     color-adjust: green; 
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: brown;
-  }
+
+/*CSS for Photo Grid*/
  .img{
  width: 100%;
  height: 500px;
@@ -32,5 +36,6 @@ img {
   border: 1px solid black;
   }
 
+  /*Footer*/
   h2{}
   footer{border-block-style: solid;}
